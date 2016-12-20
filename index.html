@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+	<title>Meteorological online service</title>
+	<meta name="description" content="Описание страницы" />
+	<meta name="keywords" content="Ключевые слова" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	</head>
+<body> 
+	<div id="page">
+	<header>	
+		<a href="/" title="" class="logo"><img src="images/logo.png" alt="Meteorological online service" /></a>
+		<div class="phone">+7 (123) 45-67-890</div>
+		<nav>
+			<ul id="top_menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="header_img">
+		<img src="images/header_img.jpg" alt="Meteorological online service" />
+		</div>
+	</header>
+
+	<section id="content">
+		<h1>Enter parameters of particular convective cloud:</h1>
+		<img src="images/content_img.jpg" alt="Картинка" class="float-right" />
+		<center>
+		<form class="form1" action="forecast.php" method="post">
+			<p>
+            			<label for="speed">The vertical velocity component:</label>
+            			<input type="text"  name="speed" placeholder="Enter speed" required />
+      			</p>
+        		<p>
+            			<label for="temperature">Temperature:</label>
+            			<input type="temperature" name="temperature" placeholder="Enter temperature" required />
+       		 	</p>
+        		<p>
+            			<label for="vlazhnost">Relative humidity:</label>
+            			<input type="vlazhnost" name="vlazhnost" placeholder="Enter humidity" required />
+        		</p>
+        		<p>
+            			<label for="par">The percentage of water vapor:</label>
+            			<input type="par" name="par" placeholder="Enter vapor percentage" required />
+        		</p>
+        		<p>
+            			<label for="moshnost">Vertical cloud power:</label>
+            			<input type="moshnost" name="moshnost" placeholder="Enter power" required />
+        		<p>
+            			<button class="submit" type="submit">Submit parameters</button>
+        		</p>
+		</form>
+		</center>
+		</section>
+	</div>
+</body>
+</html>

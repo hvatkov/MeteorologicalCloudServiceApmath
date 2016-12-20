@@ -22,7 +22,7 @@
 
 	<div id="page">
 	<header>	
-		<a href="/" title="" class="logo"><img src="images/logo.png" alt="Meteorological online service" /></a>
+		<a href="index.html" title="" class="logo"><img src="images/logo.png" alt="Meteorological online service" /></a>
 		<div class="phone">+7 (123) 45-67-890</div>
 		<nav>
 			<ul id="top_menu">
